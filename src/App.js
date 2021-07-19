@@ -1,9 +1,11 @@
 import "./App.css";
-
+import Game from "./Components/Game/Game";
+import Icon from "./Components/Icon/Icon";
 function App() {
   return (
     <div className="App">
-      <h1>Tic Tac Toe</h1>
+      <Icon choice="circle"></Icon>
+      <Game />
     </div>
   );
 }

@@ -3,5 +3,36 @@
   font-size: 30px;
 }
 body {
-  background-color: #adff2f;
+  background: #c31432;
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);
+  background: linear-gradient(to right, #240b36, #c31432);
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  width: 125px;
+  height: 60px;
+  margin: 10px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  color: black;
 }
